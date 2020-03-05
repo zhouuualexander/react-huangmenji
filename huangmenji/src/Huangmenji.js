@@ -21,7 +21,7 @@ export class Huangmenji extends Component{
         super(props);
         this.state = {
           weight:4,
-        
+          chicken: 0,
         };
       }
       handleClick = () => {
@@ -47,7 +47,7 @@ export class Huangmenji extends Component{
                 <div className="clock"><AnalogClock {...options} />
                 </div>
                 <div className="wrapper">
-            <ComposedTextField/>
+            <ComposedTextField value={this.state.chicken} onChange={(value)=>{this.setState({chicken: value})}}/>
             </div>
             <button className="cal" onClick={this.handleClick}>算一下</button>
             
