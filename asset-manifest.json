@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-huangmenji/static/css/main.da7b87dc.chunk.css",
+    "main.js": "/react-huangmenji/static/js/main.80e3b3da.chunk.js",
+    "main.js.map": "/react-huangmenji/static/js/main.80e3b3da.chunk.js.map",
+    "runtime-main.js": "/react-huangmenji/static/js/runtime-main.1a24ae71.js",
+    "runtime-main.js.map": "/react-huangmenji/static/js/runtime-main.1a24ae71.js.map",
+    "static/js/2.4499109b.chunk.js": "/react-huangmenji/static/js/2.4499109b.chunk.js",
+    "static/js/2.4499109b.chunk.js.map": "/react-huangmenji/static/js/2.4499109b.chunk.js.map",
+    "index.html": "/react-huangmenji/index.html",
+    "precache-manifest.c11d2fc987875dc7da6793c7bf5dad4e.js": "/react-huangmenji/precache-manifest.c11d2fc987875dc7da6793c7bf5dad4e.js",
+    "service-worker.js": "/react-huangmenji/service-worker.js",
+    "static/css/main.da7b87dc.chunk.css.map": "/react-huangmenji/static/css/main.da7b87dc.chunk.css.map",
+    "static/js/2.4499109b.chunk.js.LICENSE.txt": "/react-huangmenji/static/js/2.4499109b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1a24ae71.js",
+    "static/js/2.4499109b.chunk.js",
+    "static/css/main.da7b87dc.chunk.css",
+    "static/js/main.80e3b3da.chunk.js"
+  ]
+}
