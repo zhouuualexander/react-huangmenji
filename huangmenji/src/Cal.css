@@ -27,7 +27,7 @@
 	text-decoration:none;
     text-shadow:0px 1px 0px #ffffff;
     position:absolute;
-    top:80%;
+    top:85%;
     left: 47%;
 }
 .cal:hover {
@@ -87,6 +87,12 @@
 .姜{ font-family: 'Long Cang', cursive;
     position: absolute;
     top:75%;
+    left: 43%;
+    font-size: x-large;
+}
+.水{ font-family: 'Long Cang', cursive;
+    position: absolute;
+    top:80%;
     left: 43%;
     font-size: x-large;
 }

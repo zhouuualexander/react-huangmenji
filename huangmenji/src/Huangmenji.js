@@ -20,8 +20,15 @@ export class Huangmenji extends Component{
     constructor(props) {
         super(props);
         this.state = {
-          weight:4,
-          chicken: 0,
+          weight:0,
+          chicken:"",
+          蚝油:0,
+          海鲜酱:0,
+          味极鲜:0,
+          草菇老抽:0,
+          鲍鱼汁:0,
+          姜:0,
+          水:0,
         };
       }
       handleClick = () => {
@@ -29,16 +36,16 @@ export class Huangmenji extends Component{
         console.log(this.state);
         this.setState((state) => {
             // Important: read `state` instead of `this.state` when updating.
-            return {weight: this.state.chicken * 10} // chicken * 10 for temp calculation algorithm
+            return {weight: this.state.chicken,
+            蚝油:Math.round(this.state.chicken/14.9),
+        海鲜酱:Math.round(this.state.chicken/100),
+    味极鲜:Math.round(this.state.chicken/76.9),
+草菇老抽:Math.round(this.state.chicken/125),
+鲍鱼汁:Math.round(this.state.chicken/90.9),
+姜:Math.round(this.state.chicken/34.48),
+水:Math.round(this.state.chicken/2)} // chicken * 10 for temp calculation algorithm
           });
-        // should be something like this {
-        //  firstName: '',
-        //  lastName: '',
-        //  place: '',
-        //  address: '',
-        //  email: '',
-        //  phoneNumber: ''
-        //}
+       
       }
     render(){
         return(
@@ -51,12 +58,13 @@ export class Huangmenji extends Component{
             </div>
             <button className="cal" onClick={this.handleClick}>算一下</button>
             
-            <div className="蚝油"><p1>蚝油：{this.state.weight}g</p1></div>
-            <div className="海鲜酱"><p1>海鲜酱：{this.state.weight}g</p1></div>
-            <div className="味极鲜"><p1>味极鲜：{this.state.weight}g</p1></div>
-            <div className="草菇老抽"><p1>草菇老抽：{this.state.weight}g</p1></div>
-            <div className="鲍鱼汁"><p1>鲍鱼汁：{this.state.weight}g</p1></div>
-            <div className="姜"><p1>姜：{this.state.weight}g</p1></div>
+            <div className="蚝油"><p1>蚝油：{this.state.蚝油}g</p1></div>
+            <div className="海鲜酱"><p1>海鲜酱：{this.state.海鲜酱}g</p1></div>
+            <div className="味极鲜"><p1>味极鲜：{this.state.味极鲜}g</p1></div>
+            <div className="草菇老抽"><p1>草菇老抽：{this.state.草菇老抽}g</p1></div>
+            <div className="鲍鱼汁"><p1>鲍鱼汁：{this.state.鲍鱼汁}g</p1></div>
+            <div className="姜"><p1>姜：{this.state.姜}g</p1></div>
+            <div className="水"><p1>水：{this.state.水}g</p1></div>
             
             
             </div>
