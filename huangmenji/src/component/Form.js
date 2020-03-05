@@ -24,7 +24,7 @@ export default function ComposedTextField(props) {
               <br/>
           </div>
           <div>
-    <TextField id="standard-uncontrolled" label="鸡腿" defaultValue="" value={props.value}/>
+    <TextField id="standard-uncontrolled" label="鸡腿" defaultValue="" value={props.value} onChange={(e)=>{props.onChange(e.target.value)}}/>
     
     </div>
     
