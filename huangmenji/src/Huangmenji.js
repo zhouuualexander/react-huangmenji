@@ -29,7 +29,7 @@ export class Huangmenji extends Component{
         console.log(this.state);
         this.setState((state) => {
             // Important: read `state` instead of `this.state` when updating.
-            return {weight: 11111}
+            return {weight: this.state.chicken * 10} // chicken * 10 for temp calculation algorithm
           });
         // should be something like this {
         //  firstName: '',
