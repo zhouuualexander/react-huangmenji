@@ -13,7 +13,7 @@ const useStyles = makeStyles(theme => ({
   
 }));
 
-export default function ComposedTextField() {
+export default function ComposedTextField(props) {
   const classes = useStyles();
 
   return (
@@ -24,7 +24,7 @@ export default function ComposedTextField() {
               <br/>
           </div>
           <div>
-    <TextField id="standard-uncontrolled" label="鸡腿" defaultValue="" />
+    <TextField id="standard-uncontrolled" label="鸡腿" defaultValue="" value={props.value}/>
     
     </div>
     
