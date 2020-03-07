@@ -1,4 +1,5 @@
 # 黄焖鸡配料计算器
+* [黄焖鸡配料计算器] - 一款可爱的计算器
 
 黄焖鸡配料器是一款mini计算器，输入鸡腿的克数即可算出相应的配料需要的数量
 
@@ -38,6 +39,7 @@ License
 MIT
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
+   [黄焖鸡配料计算器]:https://zhouuualexander.github.io/react-huangmenji/
    [npm.js]:https://www.npmjs.com/
    [React.js]:https://reactjs.org/
    [dill]: <https://github.com/joemccann/dillinger>
