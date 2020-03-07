@@ -1,37 +1,62 @@
-## Welcome to GitHub Pages
+# 黄焖鸡配料计算器
 
-You can use the [editor on GitHub](https://github.com/zhouuualexander/react-huangmenji/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+黄焖鸡配料器是一款mini计算器，输入鸡腿的克数即可算出相应的配料需要的数量
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+  - 使用了Reactjs
+  - 一点点吃货的灵感
+  - 一点点懒惰
 
-### Markdown
+# 当前特色!
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+  - 只能输入🍗的克数
+  - 点击计算就可以算出配料啦
 
-```markdown
-Syntax highlighted code block
+> 配料来自于百度知道
+> 配方也许和杨铭宇黄焖鸡一样
 
-# Header 1
-## Header 2
-### Header 3
+### 科技
 
-- Bulleted
-- List
+黄焖鸡配料计算器用的一些开源
 
-1. Numbered
-2. List
+* [React.js] - A JavaScript library for building user interfaces
 
-**Bold** and _Italic_ and `Code` text
+* [node.js] - evented I/O for the backend
 
-[Link](url) and ![Image](src)
+* [npm.js] - We're npm, Inc., the company behind Node package manager, the npm Registry, and npm CLI. We offer those to the community for free, but our day job is building and selling useful tools for developers like you.
+
+### 安装
+
+
+```sh
+$ git clone https://github.com/zhouuualexander/react-huangmenji.git
+$ npm install 
+$ npm i analog-clock-react
 ```
+License
+----
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+MIT
 
-### Jekyll Themes
+[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
+   [npm.js]:https://www.npmjs.com/
+   [React.js]:https://reactjs.org/
+   [dill]: <https://github.com/joemccann/dillinger>
+   [git-repo-url]: <https://github.com/joemccann/dillinger.git>
+   [john gruber]: <http://daringfireball.net>
+   [df1]: <http://daringfireball.net/projects/markdown/>
+   [markdown-it]: <https://github.com/markdown-it/markdown-it>
+   [Ace Editor]: <http://ace.ajax.org>
+   [node.js]: <http://nodejs.org>
+   [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
+   [jQuery]: <http://jquery.com>
+   [@tjholowaychuk]: <http://twitter.com/tjholowaychuk>
+   [express]: <http://expressjs.com>
+   [AngularJS]: <http://angularjs.org>
+   [Gulp]: <http://gulpjs.com>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/zhouuualexander/react-huangmenji/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+   [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
+   [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
+   [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
+   [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
+   [PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
+   [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
