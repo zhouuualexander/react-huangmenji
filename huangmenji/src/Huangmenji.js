@@ -38,18 +38,17 @@ export class Huangmenji extends Component{
             // Important: read `state` instead of `this.state` when updating.
             return {weight: this.state.chicken,
             蚝油:Math.round(this.state.chicken/14.9),
-        海鲜酱:Math.round(this.state.chicken/100),
-    味极鲜:Math.round(this.state.chicken/76.9),
-草菇老抽:Math.round(this.state.chicken/125),
-鲍鱼汁:Math.round(this.state.chicken/90.9),
-姜:Math.round(this.state.chicken/34.48),
-水:Math.round(this.state.chicken/2)} // chicken * 10 for temp calculation algorithm
-          });
-       
+            海鲜酱:Math.round(this.state.chicken/100),
+            味极鲜:Math.round(this.state.chicken/76.9),
+            草菇老抽:Math.round(this.state.chicken/125),
+            鲍鱼汁:Math.round(this.state.chicken/90.9),
+            姜:Math.round(this.state.chicken/34.48),
+            水:Math.round(this.state.chicken/2)}
+          });    
       }
     render(){
         return(
-            <div >
+            <div>
                 <h1 className="title">黄焖鸡配料计算器</h1>
                 <div className="clock"><AnalogClock {...options} />
                 </div>
@@ -57,7 +56,6 @@ export class Huangmenji extends Component{
             <ComposedTextField value={this.state.chicken} onChange={(value)=>{this.setState({chicken: value})}}/>
             </div>
             <button className="cal" onClick={this.handleClick}>算一下</button>
-            
             <div className="蚝油"><p1>蚝油：{this.state.蚝油}g</p1></div>
             <div className="海鲜酱"><p1>海鲜酱：{this.state.海鲜酱}g</p1></div>
             <div className="味极鲜"><p1>味极鲜：{this.state.味极鲜}g</p1></div>
@@ -65,8 +63,9 @@ export class Huangmenji extends Component{
             <div className="鲍鱼汁"><p1>鲍鱼汁：{this.state.鲍鱼汁}g</p1></div>
             <div className="姜"><p1>姜：{this.state.姜}g</p1></div>
             <div className="水"><p1>水：{this.state.水}g</p1></div>
-            
-            
+            <img className="chickenimgleft" src={"https://cdn.clipart.email/9fed41f72941dceb027099ea1aaa4c6d_food-chicken-leg-turkey-leg-turkey-roast-chicken-food-and-_512-512.png" } alt="Logo" width="200px"/>
+            <img className="chickenimgright" src={"https://cdn.clipart.email/9fed41f72941dceb027099ea1aaa4c6d_food-chicken-leg-turkey-leg-turkey-roast-chicken-food-and-_512-512.png" } alt="Logo" width="200px"/>
+
             </div>
           
         )

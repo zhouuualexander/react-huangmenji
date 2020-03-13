@@ -96,3 +96,15 @@
     left: 43%;
     font-size: x-large;
 }
+.chickenimgleft{
+    position: absolute;
+    top:50%;
+    left: 20%;
+    font-size: x-large;
+}
+.chickenimgright{
+    position: absolute;
+    top:50%;
+    left: 60%;
+    font-size: x-large;
+}
